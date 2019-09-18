@@ -3,7 +3,9 @@ var score = 0;
 postToPage(score);
 
 createButton('Button', btnPress);
-changeTitle('Clicker Game');
+createButton('+20', btnPress);
+
+changeTitle('Button Clicker 2.0');
 
 setInterval(btnPress, 1000);
 
