@@ -1,24 +1,13 @@
-var score = 1; // Create a variable to store the score in
-
-var title = new Title('Button Clicker 2.0'); // Create a title element
-var button = new Button('hello', btnPress);   // Create a button element
-var hidden = new Button('Boo!');
-hidden.hide();
-var scr = new Text(score);                    // Create a text element
+var welcome = new title('Title');
+var woodButton = new Button('Collect Wood') , increaseWood
+var wood = 0;
+var woodcount = new Text(Wood);
 
 
-var twenty = new Button('+20', btnPress);
 
 
-setInterval(btnPress, 1000);
 
-function btnPress() {
-  score++;         // Increase the score
-  scr.edit(score); // Update the page with the new score
-  if(score > 10) {
-    hidden.show();
-  }
-  if(score > 15) {
-    hidden.hide(500);
-  }
-}
+
+function increaseWood() {
+  wood++;
+  woodcount.edit(Wood);
